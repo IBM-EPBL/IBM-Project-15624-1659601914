@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>AI BASED DISCOURSE FOR BANKING INDUSTRY</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">BankingBot</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ACCOUNTS</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+
+        </div> 
+        <div class="content">
+            <h1>AI Based Discourse for <br><span>Banking</span> <br>Industry</h1>
+            <p class="par">- Project Nalaiya Thiran 2022 <br> TEAM ID: PNT2022TMID39554  <br> TEAM MEMBERS:<br> <B>     IMRAN SHERIEFF M<br>    BALAJI K<br>    DINESH KUMAR B<br>  DHINESH B </B></p>
+
+                <button class="cn"><a href="#">JOIN US</a></button>
+
+                <div class="form">
+                    <h2>Login Here</h2>
+                    <input type="email" name="email" placeholder="Enter Email Here">
+                    <input type="password" name="" placeholder="Enter Password Here">
+                    <button class="btnn"><a href="#">Login</a></button>
+
+                    <p class="link">Don't have an account<br>
+                    <a href="#">Sign up </a> here</a></p>
+                    <p class="liw">Log in with</p>
+
+                    <div class="icons">
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                    </div>
+
+                </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "ee5f1f2d-b3b8-46e1-8bae-7b717fca68e4", // The ID of this integration.
+          region: "us-south", // The region your integration is hosted in.
+          serviceInstanceID: "bcc8994a-87d9-419c-9749-73689e7b11ef", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+</body>
+</html>
